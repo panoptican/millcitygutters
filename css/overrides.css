@@ -1,0 +1,62 @@
+:root {
+  --menu-bg: rgba(15, 15, 18, 0.97);
+  --status-error: #ff9d9d;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#menu-toggle,
+#menu-close {
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.22);
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-size: 0.72em;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  min-height: 3em;
+  padding: 0.9em 1.15em;
+  text-transform: uppercase;
+}
+
+#menu {
+  background: var(--menu-bg);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+#menu.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#menu .inner {
+  padding-top: 1.5em;
+}
+
+#menu .close {
+  margin-top: 0.5em;
+}
+
+.form-status {
+  margin: 0 0 0.85em;
+  min-height: 1.25em;
+}
+
+.form-status.error {
+  color: var(--status-error);
+}
+
+.formButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
