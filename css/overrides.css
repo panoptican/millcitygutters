@@ -62,11 +62,6 @@
 }
 
 /* Footer */
-#footer {
-  background: #1d1d1f;
-  border-top: solid 2px rgba(255, 255, 255, 0.125);
-}
-
 #footer .inner ul.contact li {
   padding-left: 0;
   margin-top: 1.25em;
