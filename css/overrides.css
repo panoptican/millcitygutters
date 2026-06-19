@@ -42,6 +42,7 @@
 
 #menu-close {
   border: 0;
+  box-shadow: none;
   background: transparent;
   color: #fff;
   cursor: pointer;
