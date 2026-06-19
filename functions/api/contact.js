@@ -31,29 +31,30 @@ export async function onRequestPost(context) {
     return jsonResponse({ error: "Email is invalid" }, 400);
   }
 
-  const toEmail = context.env.CONTACT_EMAIL || "info@millcitygutters.com";
-  const fromEmail = context.env.CONTACT_FROM_EMAIL || "noreply@millcitygutters.com";
+  const apiKey = context.env.RESEND_API_KEY;
+  if (!apiKey) {
+    return jsonResponse({ error: "Email service not configured" }, 503);
+  }
 
-  const mailChannelsResponse = await fetch("https://api.mailchannels.net/tx/v1/send", {
+  const toEmail = context.env.CONTACT_EMAIL || "info@millcitygutters.com";
+  const fromEmail = context.env.CONTACT_FROM_EMAIL || "website@millcitygutters.com";
+
+  const resendResponse = await fetch("https://api.resend.com/emails", {
     method: "POST",
     headers: {
-      "Content-Type": "application/json"
+      "Content-Type": "application/json",
+      "Authorization": `Bearer ${apiKey}`
     },
     body: JSON.stringify({
-      personalizations: [{ to: [{ email: toEmail, name: "Mill City Gutters" }] }],
-      from: { email: fromEmail, name: "Mill City Gutters Website" },
-      reply_to: { email, name },
+      from: `Mill City Gutters Website <${fromEmail}>`,
+      to: [toEmail],
+      reply_to: `${name} <${email}>`,
       subject: "New message from millcitygutters.com",
-      content: [
-        {
-          type: "text/plain",
-          value: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
-        }
-      ]
+      text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     })
   });
 
-  if (!mailChannelsResponse.ok) {
+  if (!resendResponse.ok) {
     return jsonResponse({ error: "Unable to send email right now" }, 502);
   }
 

@@ -1,6 +1,6 @@
 :root {
   --menu-bg: rgba(15, 15, 18, 0.97);
-  --status-error: #ff9d9d;
+  --status-error: #ffffff;
 }
 
 #header {
@@ -54,6 +54,7 @@
 
 .form-status.error {
   color: var(--status-error);
+  font-weight: 600;
 }
 
 .formButton:disabled {
