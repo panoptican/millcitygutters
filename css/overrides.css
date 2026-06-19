@@ -37,6 +37,12 @@
 #menu.is-open {
   opacity: 1;
   pointer-events: auto;
+  visibility: visible;
+}
+
+#menu.is-open .inner {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 #menu .inner {
