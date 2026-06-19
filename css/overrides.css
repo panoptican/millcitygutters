@@ -60,3 +60,12 @@
   opacity: 0.6;
   cursor: not-allowed;
 }
+
+/* main.css zeroes button padding at <=640px (assumes full-width .fit
+   buttons); restore horizontal padding so inline buttons like the banner
+   "Call Us Today" aren't cramped against their borders. */
+@media screen and (max-width: 640px) {
+  .button:not(.fit) {
+    padding: 0 1.75em;
+  }
+}
