@@ -49,7 +49,11 @@ export async function onRequestPost(context) {
       from: `Mill City Gutters Website <${fromEmail}>`,
       to: [toEmail],
       reply_to: `${name} <${email}>`,
-      subject: "New message from millcitygutters.com",
+      subject: `New website inquiry from ${name}`,
+      headers: {
+        // Unique per message so Gmail doesn't thread separate inquiries together
+        "X-Entity-Ref-ID": crypto.randomUUID()
+      },
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     })
   });
