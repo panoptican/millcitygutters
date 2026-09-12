@@ -1,0 +1,218 @@
+{
+  "_comment": "Config for /seo. Written once by references/foundation.md §1 and never overwritten. null means 'not detected yet, fill on first need'.",
+  "version": "2.2",
+  "initialized": false,
+  "site": {
+    "domain": "https://millcitygutters.com",
+    "name": "Mill City Gutters",
+    "aliases": [
+      "Mill City Gutters",
+      "Mill City Gutter",
+      "millcitygutters",
+      "Mill City Gutters Minneapolis"
+    ],
+    "locale": {
+      "country": "United States",
+      "language": "en"
+    },
+    "repo_kind": "marketing",
+    "sitemap_url": "https://millcitygutters.com/sitemap.xml",
+    "brand_regex": null
+  },
+  "stack": {
+    "kind": "html",
+    "marketing_controller": null,
+    "pages_dir": ".",
+    "data_dir": null,
+    "routes_file": null,
+    "sitemap_path": "sitemap.xml",
+    "robots_path": "robots.txt",
+    "llms_txt_path": null,
+    "header_component": null,
+    "footer_component": null,
+    "content_store": "files",
+    "content_dir": ".",
+    "content_layout": "index.html",
+    "output_url_prefix": "/",
+    "cms": null,
+    "deploy": {
+      "host": "cloudflare-pages",
+      "project": "millcitygutters",
+      "note": "Static HTML at repo root. functions/api/contact.js is a Cloudflare Pages Function (Resend). .github/workflows/deploy-pages.yml was deleted in the working tree; confirm whether deploy moved to Cloudflare native git integration."
+    },
+    "figure_style": {
+      "chart_component": null,
+      "tokens": null,
+      "dark_mode": "none",
+      "notes": "Solid State (HTML5 UP) template. Accent orange #d76540 on near-black #1d1d1f. Montserrat headings, Source Sans Pro body."
+    }
+  },
+  "gsc": {
+    "site_url": null
+  },
+  "bing": {
+    "api_key_env": null,
+    "site_url": null
+  },
+  "openseo": {
+    "project_id": null,
+    "tracker_id": null
+  },
+  "ga4": {
+    "property_id": null
+  },
+  "competitors": [
+    {
+      "name": "Lindus Construction",
+      "domain": "lindusconstruction.com",
+      "tier": "head",
+      "why": "inferred: large Twin Cities exterior remodeler ranking for gutters",
+      "sitemap_url": null
+    },
+    {
+      "name": "Krech Exteriors",
+      "domain": "krechexteriors.com",
+      "tier": "mid",
+      "why": "inferred: Twin Cities roofing/gutter contractor",
+      "sitemap_url": null
+    },
+    {
+      "name": "LeafGuard",
+      "domain": "leafguard.com",
+      "tier": "head",
+      "why": "inferred: national gutter-protection brand",
+      "sitemap_url": null
+    }
+  ],
+  "_comment_competitors": "inferred from public knowledge — confirm with the owner. sitemap_url enables the weekly competitor delta panel.",
+  "content_surfaces": [
+    "index.html",
+    "*.html"
+  ],
+  "priority_pages": [
+    "https://millcitygutters.com/"
+  ],
+  "_comment_priority_pages": "Single-page site today. Add new service and location pages here as they ship.",
+  "crawl_hubs": [
+    "/"
+  ],
+  "authority": {
+    "dr": null,
+    "dr_source": "none",
+    "kd_ceiling": "easy",
+    "kd_source": "estimated",
+    "last_read": null
+  },
+  "budget": {
+    "per_run_usd": 2.0,
+    "ai_panel_cadence_days": 14,
+    "health_diff_cadence_days": 1,
+    "claim_reverify_sample": 3,
+    "link_check_cadence_days": 7
+  },
+  "select": {
+    "floor": 9
+  },
+  "paths": {
+    "roadmap": ".seo/roadmap.md",
+    "ledger": ".seo/content-ledger.md",
+    "truth": ".seo/truth.md",
+    "needs_you": ".seo/needs-you.md",
+    "runs": ".seo/runs/",
+    "health": ".seo/health/",
+    "briefs": ".seo/briefs/"
+  },
+  "logs": {
+    "path": null,
+    "format": "none"
+  },
+  "tools_detected": {
+    "gsc": false,
+    "bing_webmaster": false,
+    "dfs": false,
+    "openseo": false,
+    "answer_engine_data": false,
+    "brand_tracking": false,
+    "crawl_audit": false,
+    "python3": true,
+    "ga4": false,
+    "psi": false,
+    "logs": false,
+    "community_search": false,
+    "social_posting": false,
+    "browser": false,
+    "git": true
+  },
+  "tools_declined": [],
+  "cache": {
+    "domain_rating": { "value": null, "read": null },
+    "keyword_volumes": { "read": null },
+    "competitor_gap": { "read": null },
+    "ai_panel": { "read": null },
+    "health_fingerprint": { "read": null }
+  },
+  "sampling": {
+    "p1": { "variants": 6, "platforms": 4, "n": 3 },
+    "p2": { "variants": 3, "platforms": 2, "n": 2 },
+    "p3": { "variants": 1, "platforms": 1, "n": 1 }
+  },
+  "radar": {
+    "seeds": [
+      "gutter replacement cost Minneapolis",
+      "seamless gutters vs sectional gutters",
+      "gutter guards worth it Minnesota",
+      "ice dams and gutters Minnesota",
+      "how often clean gutters Minneapolis",
+      "best gutters for Minnesota winters",
+      "downspout drainage problems",
+      "copper gutters cost",
+      "half round vs k style gutters",
+      "gutter company near me Minneapolis"
+    ],
+    "communities": [
+      "reddit.com/r/Minneapolis",
+      "reddit.com/r/TwinCities",
+      "reddit.com/r/homeimprovement",
+      "nextdoor.com"
+    ],
+    "cadence_days": 7
+  },
+  "speed": {
+    "psi_api_key_env": "PSI_API_KEY",
+    "top_pages": 10,
+    "cadence_days": 7
+  },
+  "cadence": {
+    "gsc_hours": 20,
+    "health_hours": 6,
+    "link_check_hours": 20,
+    "radar_free_hours": 20,
+    "bing_hours": 20,
+    "outcomes_hours": 20,
+    "competitor_hours": 168,
+    "serp_hours": 168,
+    "backlinks_hours": 168,
+    "link_opportunities_hours": 168,
+    "seasonality_hours": 720,
+    "site_search_hours": 168
+  },
+  "git": {
+    "mode": "none"
+  },
+  "repo": {
+    "watch_paths": [
+      "index.html",
+      "sitemap.xml",
+      "functions/api/**",
+      "css/**",
+      "js/**"
+    ]
+  },
+  "serp": {
+    "top_queries": 20
+  },
+  "distribute": {
+    "social_skill": null,
+    "window_days": 14
+  }
+}
