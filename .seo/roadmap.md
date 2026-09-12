@@ -128,8 +128,9 @@ Roofing, siding, windows, snow removal, commercial-only work. Building a page fo
 1. Sitemap: add `<lastmod>` and any new URLs as they ship.
 2. Investigate the JSON-LD `@type` (`RoofingContractor` vs a gutter-accurate type).
 3. Add `llms.txt`.
-4. Confirm pretty-URL behaviour on Cloudflare Pages.
+4. Confirm pretty-URL behaviour on Cloudflare Pages. **Done 2026-09-11** — `.html`→pretty and http/www canonicalization are clean single-hop 301/308.
 5. Submit sitemap in GSC + Bing once connected.
+6. Fix the site-wide soft-404. **Done 2026-09-11** — added `404.html` on branch `seo/repair-indexing` and disabled Cloudflare email obfuscation on the contact mailto; pending deploy verification (NY-9).
 
 **Verification:**
 - [ ] `tech_audit.py --domain millcitygutters.com` returns 0 critical findings

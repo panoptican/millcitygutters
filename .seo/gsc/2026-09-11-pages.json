@@ -1,0 +1,27 @@
+{
+ "site_url": "sc-domain:millcitygutters.com",
+ "start_date": "2026-08-13",
+ "end_date": "2026-09-09",
+ "rows": [
+  {
+   "keys": [
+    "https://millcitygutters.com/"
+   ],
+   "page": "https://millcitygutters.com/",
+   "clicks": 7,
+   "impressions": 1409,
+   "ctr": 0.005,
+   "position": 26.19
+  },
+  {
+   "keys": [
+    "https://www.millcitygutters.com/"
+   ],
+   "page": "https://www.millcitygutters.com/",
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0.0,
+   "position": 1.0
+  }
+ ]
+}
