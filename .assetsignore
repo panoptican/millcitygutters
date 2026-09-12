@@ -1,0 +1,6 @@
+.git*
+.assetsignore
+.seo
+.agents
+.wrangler
+qa
