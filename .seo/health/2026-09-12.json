@@ -1,31 +1,25 @@
 {
   "base_url": "https://millcitygutters.com",
-  "generated": "2026-09-12T03:10:23+00:00",
+  "generated": "2026-09-12T05:33:57+00:00",
   "link_check": {
-    "broken": 1,
+    "broken": 0,
     "redirecting": 0,
-    "unique_targets": 1
+    "unique_targets": 0
   },
   "pages": {
     "https://millcitygutters.com/": {
-      "body_text": "Mill City Gutters | Seamless Gutters in Minneapolis Mill City Gutters Menu Mill City Gutters A full-service seamless gutters company based in Minneapolis. Call Us Today Quality We know the importance of a functional gutter system in protecting your home or business. Our installers take great care to install solutions that are both beautiful and effective. The expert installers at Mill City Gutters have decades of experience. There is not a gutter product we have not had the pleasure to install. From hip roofs and gables to flat roofs, gambrels and mansards, we have installed gutters on every type of house in the Twin Cities metro. Timely We are always on call and available to help. We will work with you to devise a gutter installation schedule that best suits your needs. Once contracted, you can be sure Mill City Gutters will complete the project in a timely fashion. Transparent Costs Many gutter companies nickel and dime you on every detail of the gutter installation. Mill City Gutters takes a different approach. Our costs are simple and easy to understand. One simple rate for actual footage of installed gutters and downspout. One simple rate for tear off of old gutters. Add those numbers up and you have got our price. No hidden fees for miters, drop-downs, screws, hangers, or labor. Services Mill City Gutters offers the complete range of gutter installation services and products. We fabricate all gutters to the precise dimensions of your home or business. Our gutters are completely seamless for optimal water transfer and protection. Aluminum Gutters We fabricate 5-inch and 6-inch aluminum seamless gutters on site. Aluminum gutters are sturdy and immune to rust, making them ideal for most situations. Gutter Protection Systems Gutter protection systems prevent debris from getting into your gutters and downspouts while reducing the need for seasonal ladder work. Copper Gutters Copper gutters are a bold, beautiful, and strong option that improves curb appeal and long-term value. Over time, copper develops a protective patina. K-Style and Half-Round Gutters K-style and half-round gutters offer a stylish alternative to standard square gutters and are especially attractive on architectural details like turret rooms. Oversized Gutters We fabricate oversized 6-inch aluminum gutters on site for larger homes and commercial buildings that need higher water-carrying capacity. Get in Touch Send us your project details and we will get a quote to you as quickly as possible. Name Email Message Send Message Mill City Gutters 5237 34th Avenue South Minneapolis, MN 55417 (612) 390-7483 [email protected] twitter.com/millcitygutters facebook.com/millcitygutters instagram.com/millcitygutters \u00a9 Mill City Gutters. All rights reserved.",
-      "body_words": 428,
-      "broken_internal_links": [
-        {
-          "href": "https://millcitygutters.com/cdn-cgi/l/email-protection",
-          "status": 404
-        }
-      ],
+      "body_words": 445,
+      "broken_internal_links": [],
       "canonical": "https://millcitygutters.com/",
-      "content_hash": "307570bbcd0df473a7edc2c3241fe85ae301643b",
+      "content_hash": "76ce825bdb76c0eca8ee2eb6922154361ad9609d",
       "date_modified": null,
       "date_published": null,
       "final_url": "https://millcitygutters.com/",
       "h1_count": 1,
-      "html_bytes": 12352,
+      "html_bytes": 12275,
       "html_lang": "en",
-      "inbound_link_count": 0,
-      "internal_link_count": 2,
+      "inbound_link_count": 1,
+      "internal_link_count": 3,
       "jsonld_types": [
         "RoofingContractor"
       ],
@@ -36,7 +30,34 @@
       "sitemap_lastmod": null,
       "status": 200,
       "title": "Mill City Gutters | Seamless Gutters in Minneapolis",
-      "ttfb_ms": 175
+      "ttfb_ms": 155
+    },
+    "https://millcitygutters.com/gutter-guards": {
+      "body_words": 1764,
+      "broken_internal_links": [],
+      "canonical": "https://millcitygutters.com/gutter-guards",
+      "content_hash": "34e33b540a54c92af91ab08f2efd7a48129a2557",
+      "date_modified": "2026-09-11",
+      "date_published": "2026-09-11",
+      "final_url": "https://millcitygutters.com/gutter-guards",
+      "h1_count": 1,
+      "html_bytes": 34738,
+      "html_lang": "en",
+      "inbound_link_count": 1,
+      "internal_link_count": 10,
+      "jsonld_types": [
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "meta_description": "An honest look at gutter guards for Twin Cities homes: which types survive Minnesota winters, what they cost per foot, and when they're worth it.",
+      "noindex": false,
+      "redirect_hops": 0,
+      "redirecting_internal_links": [],
+      "sitemap_lastmod": "2026-09-11",
+      "status": 200,
+      "title": "Are Gutter Guards Worth It in Minneapolis? | 2026 GuideDecision flow for whether gutter guards are worth it in MinneapolisWhy ice dams form, independent of gutter guards",
+      "ttfb_ms": 121
     }
   }
 }
